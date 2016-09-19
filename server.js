@@ -22,7 +22,8 @@ fs.readFile('1361680148.fit', function (err, content) {
     if (error) {
       console.log(error);
     } else {
-      console.log(JSON.stringify(data));
+      //console.log(JSON.stringify(data));
+      var output = fs.writeFile('1361680148.json', 'utf8'); // need to add callback fct.
     }
 
   });
