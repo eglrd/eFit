@@ -1,0 +1,17 @@
+{
+  "name": "efit",
+  "version": "1.0.0",
+  "description": "trying to open fit file",
+  "main": "server.js",
+  "dependencies": {
+    "easy-fit": "0.0.5",
+    "fs": "0.0.1-security"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "etienne",
+  "license": "ISC"
+}
